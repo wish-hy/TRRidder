@@ -1,0 +1,40 @@
+<!--公交详情页实时公交tip样式-->
+<xml>
+  <params>
+    <param useCommonParser='true' direction='topCenter' anchorOffset='(0,0)'>
+      <subparam id='backimage' background-image='116013'></subparam>
+    </param>
+  </params>
+
+  <div>
+    <div
+      id='backimage'
+      style='left: 0; top: 0px; padding: 22px 28px 40px 31px; backgroundstretch: 34% 63% 51% 24% 34% 21% 51% 65%'
+    >
+      <div style='display: flex; flex-direction: row; align-items: flex-start; position: relative'>
+        <div style='display: flex; margin-right: 3px; flex-direction: column; align-items: flex-start'>
+          <label
+            style='align-self: flex-start; font-size: 20px; color: @Color_Black; line-height: 24px; position: relative'
+            text='{label}'
+          ></label>
+
+          <div style='display: flex; margin-top: 2px; flex-direction: row; align-items: center; position: relative'>
+            <label
+              style='align-self: center; font-size: 26px; color: @Color_Hue170_H8; line-height: 26px; margin-right: 4px'
+              text='{subLabel}'
+            ></label>
+          </div>
+        </div>
+
+        <img
+          style='width: 16px; height: 16px; align-self: flex-start; margin-top: 19px'
+          src='30025'
+          syncloadCache='false'
+          fastmode='false'
+        ></img>
+      </div>
+    </div>
+
+    <label style='height: 20px' text=''></label>
+  </div>
+</xml>

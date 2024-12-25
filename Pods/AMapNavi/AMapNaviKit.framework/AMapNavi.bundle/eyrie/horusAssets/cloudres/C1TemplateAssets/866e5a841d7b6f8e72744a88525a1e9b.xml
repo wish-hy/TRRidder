@@ -1,0 +1,36 @@
+<!--头像动态纹理样式-->
+<xml>
+  <params>
+    <param
+      useCommonParser='true'
+      direction='topCenter'
+      anchorRatio='(0.5,1.0)'
+    ></param>
+  </params>
+
+  <div style='display: flex; width: {iconBgWidth}; height: {iconBgHeight}; justify-content: center; flex-direction: row'>
+    <img
+      style='width: {iconWidth}; height: {iconHeight}; border-radius: {radius}; margin-top: {iconMarginTop}'
+      serviceresize='{urlResize}'
+      src='{icon}'
+      syncloadCache='false'
+      fastmode='false'
+    ></img>
+
+    <div style='width: {iconWidth}; height: {iconHeight}; border-radius: {radius}; background-color: {maskColor}; position: absolute; top: {iconMarginTop}'></div>
+
+    <img
+      style='width: {iconBgWidth}; height: {iconBgHeight}; position: absolute'
+      src='{iconBg}'
+      syncloadCache='false'
+      fastmode='false'
+    ></img>
+
+    <div style='display: flex; width: {numWidth}; height: {numHeight}; opacity: 0.9; justify-content: center; visibility: {visibility}; left: {numMarginLeft}; top: {numMarginTop}; border-radius: {numRadius}; align-items: center; position: absolute; background-color: @Color_BG_Brand'>
+      <label
+        style='display: {labeldisplay}; color: @Color_Text_Highlight; font-size: {NumFontSize}; position: absolute'
+        text='{aggregationNum}'
+      ></label>
+    </div>
+  </div>
+</xml>

@@ -1,0 +1,82 @@
+<!--连续无加油站气泡样式-->
+<xml>
+  <params>
+    <param useCommonParser='true' direction='rightTop' anchorOffset='(18,20)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='35% 40% 61% 51%'
+        padding='25px 32px 47px 47px'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='leftTop' anchorOffset='(18,20)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='35% 40% 61% 51%'
+        padding='25px 47px 47px 32px'
+        backgroundtransform='rotate(0,180,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='leftBottom' anchorOffset='(18,20)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='35% 40% 61% 51%'
+        padding='46px 46px 26px 33px'
+        backgroundtransform='rotate(180,180,0)'
+      ></subparam>
+    </param>
+
+    <param
+      useCommonParser='true'
+      direction='rightBottom'
+      anchorOffset='(18,20)'
+    >
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='35% 40% 61% 51%'
+        padding='46px 32px 26px 47px'
+        backgroundtransform='rotate(180,0,0)'
+      ></subparam>
+    </param>
+  </params>
+
+  <div
+    id='backimage'
+    style='display: flex; justify-content: space-around; align-items: center; flex-direction: row'
+  >
+    <img
+      id='30309'
+      style='width: 56px; height: 56px'
+      src='{iconRes}'
+      syncloadCache='false'
+      fastmode='false'
+    ></img>
+
+    <div
+      id='30309'
+      style='display: flex; align-items: flex-start; flex-direction: column; margin-left: 4'
+    >
+      <div style='display: flex; margin-left: 4px; justify-content: center; align-items: center; flex-direction: row'>
+        <label
+          style='display: flex; margin-bottom: 3px; font-size: 24px; opacity: 0.6; color: @Color_Black'
+          text='{subtitle}'
+        ></label>
+
+        <label
+          style='display: flex; margin-bottom: 3px; font-size: 24px; color: @Color_Hue20_H6'
+          text='{miss_distance}'
+        ></label>
+      </div>
+
+      <label
+        style='font-weight: bold; font-size: 26px; color: @Color_Black'
+        text='{title}'
+      ></label>
+    </div>
+  </div>
+</xml>

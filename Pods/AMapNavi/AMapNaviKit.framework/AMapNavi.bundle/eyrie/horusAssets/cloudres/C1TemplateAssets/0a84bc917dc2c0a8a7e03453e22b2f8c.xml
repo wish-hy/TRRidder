@@ -1,0 +1,9 @@
+<!--推荐停车场icon普通态-->
+<xml>
+  <params>
+    <param useCommonParser="true" direction="centerCenter" anchorOffset="(0,0)"></param>
+  </params>
+  <div style="display:flex;flex-direction:row;">
+    <image style="width:60px;height:64px;" src="{icon}"></image>
+  </div>
+</xml>

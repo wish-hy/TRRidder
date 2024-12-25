@@ -1,0 +1,47 @@
+<!--骑步行终点营业时间气泡_30303-->
+<xml>
+  <params>
+    <param useCommonParser='true' direction='topCenter' anchorOffset='(0,-63)'>
+      <subparam
+        id='backimage'
+        background-image='140550'
+        backgroundstretch='45% 63% 54% 32% 45% 33% 54% 62%'
+        padding='18px 0px 33px 0px'
+      ></subparam>
+    </param>
+  </params>
+
+  <div style='display: flex; flex-direction: row'>
+    <div
+      id='backimage'
+      style='display: flex; align-items: flex-start; margin-start: 0px; flex-direction: column'
+    >
+      <div style='flex-direction: row'>
+        <img
+          style='margin-left: 30px; align-self: center'
+          src='{imgIcon}'
+          syncload='true'
+        ></img>
+
+        <div style='align-self: center; margin-right: 33px; margin-left: 14px; flex-direction: column'>
+          <label
+            style='font-size: 28px; color: {labelColor}'
+            text='{label}'
+          ></label>
+
+          <label
+            style='display: {subDisplay}; font-size: 24px; color: @Color_Text_L1'
+            text='{subLabel}'
+          ></label>
+        </div>
+      </div>
+    </div>
+
+    <img
+      id='30305'
+      style='top: -21px; right: -13px; position: absolute'
+      src='30306'
+      syncload='true'
+    ></img>
+  </div>
+</xml>

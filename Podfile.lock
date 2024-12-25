@@ -1,0 +1,175 @@
+PODS:
+  - Alamofire (5.10.1)
+  - AMapFoundation (1.8.2)
+  - AMapLocation (2.10.0):
+    - AMapFoundation (>= 1.8.0)
+  - AMapNavi (10.0.900):
+    - AMapFoundation (>= 1.8.2)
+  - AMapSearch (9.7.4):
+    - AMapFoundation (>= 1.8.0)
+  - Bugly (2.6.1)
+  - HandyJSON (5.0.2)
+  - IQKeyboardCore (1.0.5)
+  - IQKeyboardManagerSwift (8.0.0):
+    - IQKeyboardManagerSwift/Appearance (= 8.0.0)
+    - IQKeyboardManagerSwift/Core (= 8.0.0)
+    - IQKeyboardManagerSwift/IQKeyboardReturnManager (= 8.0.0)
+    - IQKeyboardManagerSwift/IQKeyboardToolbarManager (= 8.0.0)
+    - IQKeyboardManagerSwift/IQTextView (= 8.0.0)
+    - IQKeyboardManagerSwift/Resign (= 8.0.0)
+  - IQKeyboardManagerSwift/Appearance (8.0.0):
+    - IQKeyboardManagerSwift/Core
+  - IQKeyboardManagerSwift/Core (8.0.0):
+    - IQKeyboardNotification
+    - IQTextInputViewNotification
+  - IQKeyboardManagerSwift/IQKeyboardReturnManager (8.0.0):
+    - IQKeyboardReturnManager
+  - IQKeyboardManagerSwift/IQKeyboardToolbarManager (8.0.0):
+    - IQKeyboardManagerSwift/Core
+    - IQKeyboardToolbarManager
+  - IQKeyboardManagerSwift/IQTextView (8.0.0):
+    - IQTextView
+  - IQKeyboardManagerSwift/Resign (8.0.0):
+    - IQKeyboardManagerSwift/Core
+  - IQKeyboardNotification (1.0.3)
+  - IQKeyboardReturnManager (1.0.4):
+    - IQKeyboardCore (= 1.0.5)
+  - IQKeyboardToolbar (1.1.1):
+    - IQKeyboardCore
+    - IQKeyboardToolbar/Core (= 1.1.1)
+  - IQKeyboardToolbar/Core (1.1.1):
+    - IQKeyboardCore
+    - IQKeyboardToolbar/Placeholderable
+  - IQKeyboardToolbar/Placeholderable (1.1.1):
+    - IQKeyboardCore
+  - IQKeyboardToolbarManager (1.1.2):
+    - IQKeyboardToolbar
+    - IQTextInputViewNotification
+  - IQTextInputViewNotification (1.0.8):
+    - IQKeyboardCore
+  - IQTextView (1.0.5):
+    - IQKeyboardToolbar/Placeholderable
+  - JCore (4.8.0)
+  - JPush (5.4.0):
+    - JCore (>= 2.0.0)
+  - MJRefresh (3.7.9)
+  - MZRSA_Swift (0.0.2)
+  - NextGrowingTextView (2.1.0)
+  - RxCocoa (6.8.0):
+    - RxRelay (= 6.8.0)
+    - RxSwift (= 6.8.0)
+  - RxRelay (6.8.0):
+    - RxSwift (= 6.8.0)
+  - RxSwift (6.8.0)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+  - SnapKit (5.7.1)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - SwiftProtobuf (1.28.2)
+  - SwiftyJSON (5.0.2)
+  - WCDB.swift (2.1.9):
+    - WCDBOptimizedSQLCipher (= 1.4.6)
+  - WCDBOptimizedSQLCipher (1.4.6)
+  - WechatOpenSDK-XCFramework (2.0.4)
+  - ZLPhotoBrowser (4.5.6):
+    - ZLPhotoBrowser/Core (= 4.5.6)
+  - ZLPhotoBrowser/Core (4.5.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - AMapLocation
+  - AMapNavi
+  - AMapSearch
+  - Bugly
+  - HandyJSON
+  - IQKeyboardManagerSwift
+  - JPush
+  - MJRefresh
+  - MZRSA_Swift (~> 0.0.2)
+  - NextGrowingTextView
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+  - SnapKit
+  - SVProgressHUD
+  - SwiftProtobuf (~> 1.0)
+  - SwiftyJSON
+  - WCDB.swift
+  - WechatOpenSDK-XCFramework
+  - ZLPhotoBrowser
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AMapFoundation
+    - AMapLocation
+    - AMapNavi
+    - AMapSearch
+    - Bugly
+    - HandyJSON
+    - IQKeyboardCore
+    - IQKeyboardManagerSwift
+    - IQKeyboardNotification
+    - IQKeyboardReturnManager
+    - IQKeyboardToolbar
+    - IQKeyboardToolbarManager
+    - IQTextInputViewNotification
+    - IQTextView
+    - JCore
+    - JPush
+    - MJRefresh
+    - MZRSA_Swift
+    - NextGrowingTextView
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SnapKit
+    - SVProgressHUD
+    - SwiftProtobuf
+    - SwiftyJSON
+    - WCDB.swift
+    - WCDBOptimizedSQLCipher
+    - WechatOpenSDK-XCFramework
+    - ZLPhotoBrowser
+
+SPEC CHECKSUMS:
+  Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
+  AMapFoundation: 9885c48fc3a78fdfb84a0299a2293e56ea3c9fec
+  AMapLocation: 5248aec2455ebb5d104b367813c946430a2ee033
+  AMapNavi: fceb4715f9a3b5a25f330facebee2aa2bdba42dd
+  AMapSearch: a30e89212f55a867ac951ce71f800313cd54ad0a
+  Bugly: 217ac2ce5f0f2626d43dbaa4f70764c953a26a31
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IQKeyboardCore: 28c8bf3bcd8ba5aa1570b318cbc4da94b861711e
+  IQKeyboardManagerSwift: 0c6fbbaa2e60739e48d7cf59f25661471a7a3a65
+  IQKeyboardNotification: d7382c4466c5a5adef92c7452ebf861b36050088
+  IQKeyboardReturnManager: 972be48528ce9e7508ab3ab15ac7efac803f17f5
+  IQKeyboardToolbar: d4bdccfb78324aec2f3920659c77bb89acd33312
+  IQKeyboardToolbarManager: 6f4072ac620c2572d4af8c09f42a801f3e4909f7
+  IQTextInputViewNotification: f5e954d8881fd9808b744e49e024cc0d4bcfe572
+  IQTextView: ae13b4922f22e6f027f62c557d9f4f236b19d5c7
+  JCore: 72aeac69a0ba49b9ef6e753cdd2d0f7f18deb15f
+  JPush: 9ebff4e71616d3bd886d358e8e0039d5a00d0d92
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  MZRSA_Swift: 4be512d30a7bb50fc0379de7a70b9540857aad94
+  NextGrowingTextView: 249ac6c55877ded085460a397477eca0d19ebabc
+  RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
+  RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
+  RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  SwiftProtobuf: 4dbaffec76a39a8dc5da23b40af1a5dc01a4c02d
+  SwiftyJSON: f5b1bf1cd8dd53cd25887ac0eabcfd92301c6a5a
+  WCDB.swift: 64f662eddd53dfc1c8f821f8090b5b9ab3586882
+  WCDBOptimizedSQLCipher: c6451e1dead7ec53e1344a2545aaed2c4c139fc0
+  WechatOpenSDK-XCFramework: 36fb2bea0754266c17184adf4963d7e6ff98b69f
+  ZLPhotoBrowser: 9fdd801da47d5aaff778b8213fc711bbadab9cb2
+
+PODFILE CHECKSUM: 4bb2a81a5f347a75d52af34aebbac424f2f899d1
+
+COCOAPODS: 1.16.1

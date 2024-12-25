@@ -1,0 +1,6 @@
+framework module MZRSA_Swift {
+  umbrella header "MZRSA_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

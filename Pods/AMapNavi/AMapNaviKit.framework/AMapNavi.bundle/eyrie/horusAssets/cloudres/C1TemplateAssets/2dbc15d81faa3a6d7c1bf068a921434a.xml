@@ -1,0 +1,82 @@
+<!--终点ETA+窄路合并气泡-->
+<xml>
+  <params>
+    <param useCommonParser='true' direction='rightTop' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='15px 26px 46px 44px'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='leftTop' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='15px 43px 46px 25px'
+        backgroundtransform='rotate(0,180,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='rightBottom' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='38px 28px 23px 42px'
+        backgroundtransform='rotate(180,0,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='leftBottom' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='38px 41px 23px 26px'
+        backgroundtransform='rotate(180,180,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='bottomCenter' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='30031'
+        backgroundstretch='52% 60% 47% 35% 53% 35% 46% 60%'
+        padding='29px 26px 31px 30px'
+      ></subparam>
+    </param>
+  </params>
+
+  <div id='backimage' style='width: auto; height: auto'>
+    <div style='display: flex; flex-direction: row; align-items: center; position: relative'>
+      <div style='display: flex; margin-top: 6px; margin-left: 3px; margin-right: 5px; flex-direction: row; align-items: flex-start'>
+        <div style='display: flex; flex-direction: row; align-items: center; align-self: center; position: relative'>
+          <img
+            style='width: 48px; height: 48px; align-self: center; margin-right: 4px'
+            src='{gistResId}'
+            syncload='true'
+            syncloadCache='false'
+            fastmode='false'
+          ></img>
+        </div>
+
+        <div style='display: flex; flex-direction: column; align-items: center; position: relative'>
+          <label
+            style='align-self: flex-start; font-weight: bold; margin-top: -1px; font-size: 26px; color: @Color_Text_L1; line-height: 28px; position: relative; white-space: nowrap; margin-right: 0px; text-stroke: 1px @Color_BG_L2'
+            text='{mainLabel}'
+          ></label>
+
+          <div style='display: flex; white-space: nowrap; background-color: @Color_Hue210_H1; line-height: 24px; margin-top: 3px; border-radius: 17.5px; flex-direction: column; align-items: center; position: relative'>
+            <label
+              style='align-self: center; margin: 3px 8px; font-weight: normal; font-size: 24px; color: @Color_Text_Brand; text-stroke: 1px @Color_BG_L2'
+              text='{etaTime}'
+            ></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</xml>

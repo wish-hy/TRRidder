@@ -1,0 +1,83 @@
+<!--公交详情页实景公交站牌-->
+<xml>
+  <params>
+    <param
+      useCommonParser='true'
+      direction='rightBottom'
+      anchorOffset='(47,115)'
+    >
+      <subparam id='maindiv' flex-direction='row'></subparam>
+
+      <subparam id='firstdiv' justify-content='flex-start'></subparam>
+
+      <subparam id='seconddiv' align-items='flex-start'></subparam>
+
+      <subparam id='firstlab' align-self='flex-start'></subparam>
+
+      <subparam id='secondlab' align-self='flex-start'></subparam>
+
+      <subparam id='thirddiv' align-items='flex-start'></subparam>
+    </param>
+
+    <param
+      useCommonParser='true'
+      direction='leftBottom'
+      anchorOffset='(47,115)'
+    >
+      <subparam id='maindiv' flex-direction='row-reverse'></subparam>
+
+      <subparam id='firstdiv' justify-content='center'></subparam>
+
+      <subparam
+        id='seconddiv'
+        align-items='flex-end'
+        justify-content='flex-end'
+      ></subparam>
+
+      <subparam id='firstlab' align-self='flex-end'></subparam>
+
+      <subparam id='secondlab' align-self='flex-end'></subparam>
+    </param>
+  </params>
+
+  <div id='maindiv' style='display: flex; align-items: flex-start'>
+    <div
+      id='firstdiv'
+      style='display: flex; position: relative; align-items: flex-start; flex-direction: row'
+    >
+      <div
+        style='width: 94px; height: 105px; top: 0px; left: 0; background-image: {iconId}; padding: 17px 17px 28px 17px'
+        syncload='true'
+      >
+        <img
+          style='width: 60px; height: 60px; border-radius: 16px; align-self: center'
+          src='{picUrl}'
+          background-backupimage='150028'
+          syncload='true'
+        ></img>
+      </div>
+    </div>
+
+    <div
+      id='thirddiv'
+      style='display: flex; flex-direction: column; margin-top: 12px; line-height: 30px'
+    >
+      <div
+        id='seconddiv'
+        style='display: flex; position: relative; flex-direction: row'
+      >
+        <label
+          id='firstlab'
+          style='color: @Color_Text_Highlight; font-size: 26px; margin: 1px 6px; border-radius: 8px; background-color: #00BD80; padding-right: 6px; padding-left: 6px'
+          text='{label}'
+        ></label>
+      </div>
+
+      <label
+        id='secondlab'
+        style='line-clamp: 2; text-stroke: 2px @Color_BG_L2; font-weight: bold; text-align: left; text-layout-amap: Y; position: relative; margin-top: 5px; color: @Color_Black; font-size: 26px'
+        text='{subLabel}'
+      ></label>
+    </div>
+  </div>
+</xml>

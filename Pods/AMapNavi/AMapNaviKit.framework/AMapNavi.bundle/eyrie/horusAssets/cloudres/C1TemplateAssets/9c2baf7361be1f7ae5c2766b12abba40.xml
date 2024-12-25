@@ -1,0 +1,30 @@
+<!--D2C预览生成-->
+<xml>
+  <params>
+    <param direction='rightTop' anchorOffset='(30,30)'>
+      <subparam id='backimage'></subparam>
+    </param>
+  </params>
+
+  <div
+    id='backimage'
+    style='display: flex; align-items: center; flex-direction: row'
+  >
+    <div style='display: flex; position: relative; align-items: center; flex-direction: row'>
+      <img
+        style='width: 48px; height: 48px; margin-right: 5px; align-self: center'
+        src='110158'
+        syncload='true'
+        syncloadCache='false'
+        fastmode='false'
+      ></img>
+
+      <div style='display: flex; align-items: flex-start; flex-direction: row; line-height: 30px; white-space: nowrap'>
+        <label
+          style='color: #000000; font-size: 24px; margin-right: 0px; align-self: flex-start'
+          text='{tollGateName}'
+        ></label>
+      </div>
+    </div>
+  </div>
+</xml>

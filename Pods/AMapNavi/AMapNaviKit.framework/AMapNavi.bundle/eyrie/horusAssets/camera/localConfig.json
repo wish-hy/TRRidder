@@ -1,0 +1,1 @@
+{"popCameraDist":[{"roadClass":0,"popDistance":2000,"mustPopDistance":1000},{"roadClass":1,"popDistance":800,"mustPopDistance":800},{"roadClass":2,"popDistance":800,"mustPopDistance":800},{"roadClass":7,"popDistance":700,"mustPopDistance":700},{"roadClass":6,"popDistance":1500,"mustPopDistance":1000}],"defPopDistance":{"roadClass":0,"popDistance":500,"mustPopDistance":500}}

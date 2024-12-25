@@ -1,0 +1,93 @@
+<!--动态运营，终点是充电桩-->
+<xml>
+  <params>
+    <param useCommonParser='true' direction='rightTop' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='21px 24px 48px 46px'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='leftTop' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='21px 43px 48px 27px'
+        backgroundtransform='rotate(0,180,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='rightBottom' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='45px 27px 24px 43px'
+        backgroundtransform='rotate(180,0,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='leftBottom' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='45px 38px 24px 31px'
+        backgroundtransform='rotate(180,180,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='bottomCenter' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='30031'
+        backgroundstretch='52% 60% 47% 35% 53% 35% 46% 60%'
+        padding='35px 26px 28px 30px'
+      ></subparam>
+    </param>
+  </params>
+
+  <div id='backimage' style='width: auto; height: auto'>
+    <div style='display: flex; flex-direction: row; align-items: center; position: relative'>
+      <img
+        style='width: 48px; height: 48px; align-self: center; margin-top: 2px; margin-right: 5px'
+        src='{gistResId}'
+        syncload='true'
+        syncloadCache='false'
+        fastmode='false'
+      ></img>
+
+      <div style='display: flex; margin-right: 5px; flex-direction: column; align-items: flex-start'>
+        <div style='display: flex; margin-right: 5px; flex-direction: row; align-items: flex-start'>
+          <label
+            style='position: relative; line-height: 33px; color: @Color_Hue30_H6; font-size: 28px; font-weight: bold; align-self: flex-start'
+            text='{mainLabel}'
+          ></label>
+
+          <label
+            style='position: relative; line-height: 33px; color: @Color_Black; font-size: 28px; align-self: flex-start; opacity: 0.6'
+            text='{subLabel}'
+          ></label>
+        </div>
+
+        <div style='display: flex; line-height: 24px; background-color: {etatime_bgcolor}; padding-left: 2px; padding-right: 2px; border-radius: 17.5px; margin-top: 4px; flex-direction: row; align-items: center; position: relative'>
+          <label
+            style='align-self: center; margin: 3px 8px; font-weight: normal; font-size: 24px; color: {etatime_color}; text-stroke: 1px @Color_BG_L2'
+            text='{etaTime}'
+          ></label>
+        </div>
+      </div>
+
+      <img
+        style='width: 24px; height: 24px; align-self: center; margin-top: 2px'
+        src='30025'
+        syncload='true'
+        syncloadCache='false'
+        fastmode='false'
+      ></img>
+    </div>
+  </div>
+</xml>

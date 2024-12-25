@@ -1,0 +1,36 @@
+<!--步行行前终点实景气泡-->
+<xml>
+  <params>
+    <param useCommonParser='true' direction='topCenter' anchorOffset='(0,15)'>
+      <subparam></subparam>
+    </param>
+  </params>
+
+  <div>
+    <div>
+      <div
+        style='padding: 13px 15px 22px 15px; background-image: 40007; left: 0; top: 0px'
+        syncload='true'
+      >
+        <div style='display: flex; flex-direction: column; position: relative'>
+          <img
+            style='width: 70px; height: 70px; border-radius: 12px; align-self: center; left: 0px; top: 0px; position: relative'
+            serviceresize='true'
+            src='{label}'
+            syncload='true'
+          ></img>
+
+          <div
+            style='display: flex; width: 70px; height: 24px; background-image: 40008; white-space: nowrap; line-height: 16px; font-weight: bold; align-items: center; flex-direction: row; position: relative; background-size: contain; margin-top: -24px'
+            syncload='true'
+          >
+            <label
+              style='align-self: center; font-weight: bold; margin: 1px 4px; font-size: 15.8px; color: @Color_Text_Highlight'
+              text='实景大图'
+            ></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</xml>

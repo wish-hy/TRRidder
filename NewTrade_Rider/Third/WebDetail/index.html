@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0 ,minimum-scale=1.0 ,maximum-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./css/mallDetail.css" />
+        <link rel="stylesheet" href="./css/wangEditor.css" />
+        
+        <title>{{ info.title }}</title>
+    </head>
+    <body>
+        <div id="app">
+            <div class="detail" v-html="info.detail"></div>
+        </div>
+        
+        <script src="vue.min.js"></script>
+        <script src="flexible.js"></script>
+        <script>
+            let article = new Vue({
+                                  data() {
+                                  return {
+                                  info: {
+                                  title: "",
+                                  detail: ""
+                                  }
+                                  };
+                                  },
+                                  mounted() {
+                                    this.$nextTick(() => {
+                                      window.getData = this.getData;
+                                    });
+                                  },
+                                  updated(){
+                                    this.handleContentHeight();
+                                  },
+                                  methods: {
+                                  getData(data) {
+                                    this.info = data;
+                                  },
+                                  handleContentHeight(){
+                                    var appElement = document.getElementById("app");
+                                    var appH = appElement.clientHeight;
+                                    var htmlHight = appH;
+                                    window.webkit.messageHandlers.contentHeight.postMessage({height: htmlHight});
+                                  }
+                                  }
+                                  }).$mount("#app");
+            </script>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!--WIA_选中态_扎标-->
+<xml>
+  <params>
+    <param
+      useCommonParser='true'
+      direction='topCenter'
+      anchorOffset='(0,0)'
+    ></param>
+  </params>
+
+  <div style='display: flex; justify-content: center; align-items: center; flex-direction: column'>
+    <img
+      style='display: flex; width: 112px; height: 112px'
+      src='{focusOuterFrameUrl}'
+      serviceresize='true'
+      syncloadCache='false'
+      fastmode='false'
+    ></img>
+
+    <div style='display: {focusImgDisplay}; left: 27px; top: 19px; align-items: center; justify-content: center; position: absolute'>
+      <img
+        style='display: flex; width: 58px; height: 58px; align-items: center'
+        src='{focusImgUrl}'
+        serviceresize='true'
+        syncloadCache='false'
+        fastmode='false'
+      ></img>
+    </div>
+
+    <div style='display: {focusLabelDisplay}; top: {focusLabelTop}px; align-items: center; justify-content: center; position: absolute; text-align: center'>
+      <label
+        style='font-weight: bold; font-size: {focusLabelFontSize}px; color: #ffffff'
+        text='{focusLabel}'
+      ></label>
+    </div>
+  </div>
+</xml>

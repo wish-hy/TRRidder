@@ -1,0 +1,9 @@
+<!--头像聚合时纹理样式-->
+<xml>
+  <params>
+    <param useCommonParser="true" direction="rightTop" anchorRatio="(0.4,1.0)"></param>
+  </params>
+  <div style="display:flex;justify-content:center;flex-direction:row;width:{iconBgWidth};height:{iconBgHeight};margin-bottom:{marginBottom}">
+    <image style="position:absolute" src="{iconBg}"></image>
+  </div>
+</xml>

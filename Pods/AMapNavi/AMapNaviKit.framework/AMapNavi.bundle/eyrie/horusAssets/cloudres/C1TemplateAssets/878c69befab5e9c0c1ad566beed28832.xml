@@ -1,0 +1,35 @@
+<!--步行/渡船扎点(自定义纹理)-->
+<xml>
+  <params>
+    <param direction='topCenter' anchorOffset='(-30,0)'>
+      <subparam id='backimage'></subparam>
+    </param>
+  </params>
+
+  <div
+    id='backimage'
+    style='display: flex; align-items: center; flex-direction: row'
+  >
+    <div
+      style='top: 0px; left: 0; background-image: url(https://faas-image.amap.com/acornCompressImageProd/%2523merge%2523%2523custom-info%253Atexture%253Fbackground%253Dtrue%2523%25402x-0bbacb2a-adbc-4907-99c5-611d4225a116.png); padding: 22px 27px 28px 19px; backgroundstretch: 46% 40% 51% 38% 46% 27% 51% 73%'
+      syncload='true'
+    >
+      <div style='display: flex; position: relative; align-items: center; flex-direction: row'>
+        <img
+          style='width: 40px; height: 40px; margin-right: 5px; align-self: center'
+          src='{imgLeft}'
+          syncload='true'
+          syncloadCache='false'
+          fastmode='false'
+        ></img>
+
+        <div style='display: flex; align-items: flex-start; flex-direction: row; font-weight: bold; line-height: 30px; white-space: nowrap'>
+          <label
+            style='color: #3377e3; font-size: 26px; margin-right: 0px; font-weight: bold; align-self: flex-start'
+            text='{desc}'
+          ></label>
+        </div>
+      </div>
+    </div>
+  </div>
+</xml>

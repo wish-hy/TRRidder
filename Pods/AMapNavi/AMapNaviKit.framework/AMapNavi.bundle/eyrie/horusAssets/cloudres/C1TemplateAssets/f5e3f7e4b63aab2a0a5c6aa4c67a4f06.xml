@@ -1,0 +1,78 @@
+<!--终点ETA+景区关闭停车建议、终点详情合并气泡-->
+<xml>
+  <params>
+    <param useCommonParser='true' direction='rightTop' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='18px 24px 44px 46px'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='leftTop' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='18px 41px 44px 27px'
+        backgroundtransform='rotate(0,180,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='rightBottom' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='41px 26px 20px 44px'
+        backgroundtransform='rotate(180,0,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='leftBottom' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='37% 40% 62% 43%'
+        padding='41px 39px 20px 28px'
+        backgroundtransform='rotate(180,180,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='bottomCenter' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='30031'
+        backgroundstretch='52% 60% 47% 35% 53% 35% 46% 60%'
+        padding='35px 26px 28px 30px'
+      ></subparam>
+    </param>
+  </params>
+
+  <div id='backimage' style='width: auto; height: auto'>
+    <div style='display: flex; position: relative; align-items: center; flex-direction: row'>
+      <div style='display: flex; align-items: flex-start; flex-direction: column; margin-right: 5px'>
+        <label
+          style='position: relative; line-height: 33px; color: @Color_Text_L1; font-size: 28px; font-weight: bold; align-self: flex-start; text-stroke: 1px @Color_BG_L2'
+          text='{mainLabel}'
+        ></label>
+
+        <div style='display: flex; margin-top: 4px; position: relative; align-items: center; flex-direction: row; line-height: 24px; border-radius: 17.5px; padding-right: 8px; padding-left: 8px; background-color: {etatime_bgcolor}'>
+          <label
+            style='color: {etatime_color}; font-size: 24px; font-weight: normal; margin: 3px 8px; align-self: center; text-stroke: 1px @Color_BG_L2'
+            text='{etaTime}'
+          ></label>
+        </div>
+      </div>
+
+      <img
+        style='width: 24px; height: 24px; margin-top: 2px; align-self: center'
+        src='30025'
+        syncload='true'
+        syncloadCache='false'
+        fastmode='false'
+      ></img>
+    </div>
+  </div>
+</xml>

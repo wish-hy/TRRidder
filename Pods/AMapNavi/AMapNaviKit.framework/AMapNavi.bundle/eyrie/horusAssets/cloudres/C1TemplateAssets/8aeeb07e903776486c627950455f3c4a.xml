@@ -1,0 +1,80 @@
+<!--双行文字合并气泡-->
+<xml>
+  <params>
+    <param useCommonParser='true' direction='rightTop' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='43% 34% 56% 42%'
+        padding='22px 24px 48px 46px'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='leftTop' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='43% 34% 56% 42%'
+        padding='22px 42px 48px 28px'
+        backgroundtransform='rotate(0,180,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='rightBottom' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='43% 34% 56% 42%'
+        padding='46px 27px 25px 43px'
+        backgroundtransform='rotate(180,0,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='leftBottom' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='205014'
+        backgroundstretch='43% 34% 56% 42%'
+        padding='46px 42px 25px 28px'
+        backgroundtransform='rotate(180,180,0)'
+      ></subparam>
+    </param>
+
+    <param useCommonParser='true' direction='bottomCenter' anchorOffset='(0,0)'>
+      <subparam
+        id='backimage'
+        background-image='30031'
+        backgroundstretch='59% 59% 40% 31% 60% 31% 39% 59%'
+        padding='37px 26px 32px 30px'
+      ></subparam>
+    </param>
+  </params>
+
+  <div id='backimage' style='width: auto; height: auto'>
+    <div style='display: flex; position: relative; align-items: center; flex-direction: row'>
+      <div style='display: flex; flex-direction: row; align-items: center; align-self: center; position: relative'>
+        <img
+          style='width: 48px; height: 48px; align-self: center; margin-right: 4px'
+          src='https://faas-image.amap.com/shaolin/images/eyrie_res/enddetail/endpoi_car_3x.png?d'
+          syncload='true'
+          syncloadCache='false'
+          fastmode='false'
+        ></img>
+      </div>
+
+      <div style='display: flex; position: relative; align-items: flex-start; flex-direction: column'>
+        <label
+          style='position: relative; overflow: hidden; text-overflow: ellipsis; line-height: 33px; color: @Color_Text_L1; font-size: 26px; font-weight: bold; align-self: flex-start; text-stroke: 1px @Color_BG_L2'
+          text='{mainLabel}'
+        ></label>
+
+        <div style='display: flex; position: relative; align-items: center; flex-direction: row; margin-top: 4px; border-radius: 17.5px; background-color: @Color_Hue210_H1; padding-right: 8px; padding-left: 8px; line-height: 24px'>
+          <label
+            style='color: @Color_Text_Brand; font-size: 24px; font-weight: normal; margin: 3px 8px; align-self: center; text-stroke: 1px @Color_BG_L2'
+            text='{etaTime}'
+          ></label>
+        </div>
+      </div>
+    </div>
+  </div>
+</xml>
